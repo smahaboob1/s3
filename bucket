@@ -1,6 +1,26 @@
-1. Create S3 
+Notes:
+-------
+Can have 100 buckets per account
+S3 is global
+
+====================================
+CASE #1:
+====================================
+1. Create S3 from Console
 	a.	Region is global
 	b.	Create Bucket
-	c.	Bucket Name (No capital letter)
+	c.	Bucket Name (No capital letter and name is unique)
 	d.	Select Region
 	e.	Create Bucket
+
+2. Upload Object
+	a.	Click on Bucket 
+	b.	Upload --> Upload Object
+	c.	Select Object and Click on URL
+	d.	By default object is not accessible because it is private
+	
+
+====================================
+CASE #2
+====================================
+1. Create S3 from CLI
